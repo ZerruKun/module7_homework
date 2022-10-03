@@ -4,7 +4,7 @@ function ElectricalAppliance(name = "Электроустройство", isTurn
   this.isTurnedOn = isTurnedOn;
 }
 
-//Именование прибора ()
+//Именование прибора
 ElectricalAppliance.prototype.electricalApplianceNaming = function (name) {
   this.name = name;
   console.log(`Визуальное отображение имени: ${name}`);
@@ -56,7 +56,6 @@ Computer.prototype.computerInfo = function () {
 };
 
 //Экземпляры
-
 let deskLamp = new DeskLamp("LED", "Средняя");
 let pc = new Computer("ATX", "Игровой");
 
